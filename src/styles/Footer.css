@@ -1,0 +1,11 @@
+/* styles.css */
+.underline-link {
+    text-decoration: underline;
+    text-decoration-color: rgb(163, 162, 161); /* Color del subrayado */
+    text-underline-offset: 4px; /* Ajuste opcional del offset del subrayado */
+  }
+  
+  .underline-link:hover {
+    text-decoration: underline dashed rgb(163, 162, 161); /* Subrayado punteado al hacer hover */
+  }
+  

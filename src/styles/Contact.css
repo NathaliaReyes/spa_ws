@@ -1,0 +1,40 @@
+#dropdown {
+    margin-bottom: 150px;
+}
+
+.modal-card {
+    position: relative;
+    padding: 2rem;
+  }
+  
+  .delete {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  
+  .modal-card-head {
+    border-bottom: none;
+    justify-content: center;
+  }
+  
+  .modal-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .modal-card-body {
+    padding: 1.5rem 1rem;
+  }
+  
+  .modal-card-foot {
+    border-top: none;
+    justify-content: center;
+  }
+  
+  .footer-text {
+    font-size: 0.875rem;
+    /* color: #4a4a4a; */
+  }
