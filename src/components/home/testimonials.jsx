@@ -19,14 +19,14 @@ export default function CarouselDefault() {
                             <Typography
                                 variant="h2"
                                 color="white"
-                                className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+                                className="mb-4 lg:text-xl md:text-lg sm:text-base"
                             >
                                 "Maria G."
                             </Typography>
                             <Typography
                                 variant="lead"
                                 color="white"
-                                className="mb-12 opacity-80"
+                                className="mb-12 lg:text-xl md:text-lg sm:text-base opacity-80"
                             >
                                 "The best relaxing massage experience I've ever had! The 
                                 atmosphere at Harmony Wellness & Spa is simply enchanting. 
