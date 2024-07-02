@@ -5,10 +5,10 @@ import Test3 from "../../assets/testimonials/testimonial3.jpg";
 
 export default function CarouselDefault() {
     return (
-        <div className="m-2 p-5 justify-center items-center">
+        <div className="p-2 justify-center items-center">
             <h2 className="text-xl font-bold text-center text-gray-800 my-8">What Our Clients Say</h2>
-            <Carousel className="rounded-xl mt-4 mb-4">
-                <div className="relative h-full w-full">
+            <Carousel className="rounded-xl ">
+                <div className="relative h-full w-full mt-4 mb-4">
                     <img
                         src={Test1}
                         alt="image 1"
