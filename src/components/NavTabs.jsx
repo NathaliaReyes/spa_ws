@@ -43,15 +43,15 @@ function NavTabs() {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-mainBg p-1">
       <div className="flex items-center flex-shrink-0 text-white m-3">
-        <img src={logo} alt="logo" className='h-28 w-28 ml-6'></img>
+        <img src={logo} alt="logo" className='h-28 w-28 ml-2'></img>
       </div>
-      <div className="block md:hidden">
-        <button onClick={toggleMenu} className="px-1 py-2 border rounded text-sky-50 border-mainYellow hover:text-white hover:border-white">
+      <div className="block md:hidden mr-2">
+        <button onClick={toggleMenu} className="px-1 py-2 border rounded text-sky-50 border-mainYellow hover:text-mainBrown hover:border-mainYellow">
           Menu
         </button>
       </div>
       <div className={`w-full ${isActive ? 'block' : 'hidden'} md:block md:flex md:items-center md:w-auto`} id="navMenu">
-        <div className="lg:text-lg md:text-base sm:text-sm md:flex-grow mr-5">
+        <div className="lg:text-lg md:text-base sm:text-sm md:flex-grow mr-5 ml-2 mb-2">
           <Link to="/" onClick={toggleMenu} className={currentPage === '/' ? 'font-bold block mt-4 md:inline-block md:mt-0 text-mainYellow hover:text-mainBrown mr-4' : 'block mt-4 md:inline-block md:mt-0 text-mainYellow hover:text-clear mr-4'}>Home</Link>
           {/* <Link to="/About" onClick={toggleMenu} className={currentPage === '/About' ? 'block mt-4 md:inline-block md:mt-0 text-teal-200 hover:text-white mr-4' : 'block mt-4 md:inline-block md:mt-0 text-white hover:text-white mr-4'}>About Us</Link> */}
           <Link to="/Services" onClick={toggleMenu} className={currentPage === '/Services' ? 'font-bold block mt-4 md:inline-block md:mt-0 text-mainYellow hover:text-mainBrown mr-4' : 'block mt-4 md:inline-block md:mt-0 text-mainYellow hover:text-clear mr-4'}>Services</Link>
