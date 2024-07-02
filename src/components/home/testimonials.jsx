@@ -26,7 +26,7 @@ export default function CarouselDefault() {
                             <Typography
                                 variant="lead"
                                 color="white"
-                                className="mb-12 lg:text-xl md:text-lg sm:text-base text-xl opacity-80"
+                                className="mb-5 lg:text-xl md:text-lg sm:text-base text-xl opacity-80"
                             >
                                 "The best relaxing massage experience I've ever had! The 
                                 atmosphere at Harmony Wellness & Spa is simply enchanting. 
@@ -54,7 +54,7 @@ export default function CarouselDefault() {
                             <Typography
                                 variant="lead"
                                 color="white"
-                                className="mb-12 lg:text-xl md:text-lg sm:text-base text-xl opacity-80"
+                                className="mb-5 lg:text-xl md:text-lg sm:text-base text-xl opacity-80"
                             >
                                 "Incredible sports massage service. They helped me recover quickly 
                                 from an injury. Highly recommended for athletes!"
@@ -81,7 +81,7 @@ export default function CarouselDefault() {
                             <Typography
                                 variant="lead"
                                 color="white"
-                                className="mb-12 lg:text-xl md:text-lg sm:text-base text-xl opacity-80"
+                                className="mb-5 lg:text-xl md:text-lg sm:text-base text-xl opacity-80"
                             >
                                 "The prenatal massage was exactly what I needed. The staff was very attentive and professional. 
                                 Thank you for taking such good care of me!" 
