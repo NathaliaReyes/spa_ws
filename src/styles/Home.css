@@ -1,0 +1,17 @@
+@media (min-width: 762px) {
+    .content-container {
+      display: flex;
+      align-items: center; /* Aligns items vertically in the center */
+      justify-content: center; /* Centers items horizontally */
+    }
+    .content-image {
+      width: 50%; /* Adjust based on your preference */
+      height: auto;
+      display: inline-block; /* Removes the bottom margin */
+      margin-right: 1rem; /* Adds some space between the image and the text */
+    }
+    .content-container div {
+      flex: 1; /* Allows the text container to fill the remaining space */
+    }
+  }
+  
