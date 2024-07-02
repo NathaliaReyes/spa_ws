@@ -8,7 +8,7 @@ export default function CarouselDefault() {
         <div className="p-2 justify-center items-center">
             <h2 className="text-xl font-bold text-center text-gray-800 my-8">What Our Clients Say</h2>
             <Carousel className="rounded-xl ">
-                <div className="relative h-full w-full mt-4 mb-4">
+                <div className="relative h-full w-full">
                     <img
                         src={Test1}
                         alt="image 1"
@@ -19,14 +19,14 @@ export default function CarouselDefault() {
                             <Typography
                                 variant="h2"
                                 color="white"
-                                className="mb-4 lg:text-xl md:text-lg sm:text-base"
+                                className="mb-4 lg:text-xl md:text-lg sm:text-base text-xl mt-2"
                             >
                                 "Maria G."
                             </Typography>
                             <Typography
                                 variant="lead"
                                 color="white"
-                                className="mb-12 lg:text-xl md:text-lg sm:text-base opacity-80"
+                                className="mb-12 lg:text-xl md:text-lg sm:text-base text-xl opacity-80"
                             >
                                 "The best relaxing massage experience I've ever had! The 
                                 atmosphere at Harmony Wellness & Spa is simply enchanting. 
@@ -47,14 +47,14 @@ export default function CarouselDefault() {
                             <Typography
                                 variant="h2"
                                 color="white"
-                                className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+                                className="mb-4 lg:text-xl md:text-lg sm:text-base text-xl"
                             >
                                 "Carlos M."
                             </Typography>
                             <Typography
                                 variant="lead"
                                 color="white"
-                                className="mb-12 opacity-80"
+                                className="mb-12 lg:text-xl md:text-lg sm:text-base text-xl opacity-80"
                             >
                                 "Incredible sports massage service. They helped me recover quickly 
                                 from an injury. Highly recommended for athletes!"
@@ -74,14 +74,14 @@ export default function CarouselDefault() {
                             <Typography
                                 variant="h2"
                                 color="white"
-                                className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+                                className="mb-4 lg:text-xl md:text-lg sm:text-base text-xl"
                             >
                                 "Ana L."
                             </Typography>
                             <Typography
                                 variant="lead"
                                 color="white"
-                                className="mb-12 opacity-80"
+                                className="mb-12 lg:text-xl md:text-lg sm:text-base text-xl opacity-80"
                             >
                                 "The prenatal massage was exactly what I needed. The staff was very attentive and professional. 
                                 Thank you for taking such good care of me!" 
