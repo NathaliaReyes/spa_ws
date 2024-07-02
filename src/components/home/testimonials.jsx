@@ -21,7 +21,7 @@ export default function CarouselDefault() {
                                 color="white"
                                 className="mb-4 lg:text-xl md:text-lg sm:text-base text-xl mt-2"
                             >
-                                "Maria G."
+                                "Laura R."
                             </Typography>
                             <Typography
                                 variant="lead"
