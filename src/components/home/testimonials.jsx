@@ -7,7 +7,7 @@ export default function CarouselDefault() {
     return (
         <div className="m-2 p-5 justify-center items-center">
             <h2 className="text-xl font-bold text-center text-gray-800 my-8">What Our Clients Say</h2>
-            <Carousel className="rounded-xl">
+            <Carousel className="rounded-xl mt-4 mb-4">
                 <div className="relative h-full w-full">
                     <img
                         src={Test1}
