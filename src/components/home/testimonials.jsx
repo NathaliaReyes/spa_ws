@@ -77,15 +77,15 @@ export default function CarouselDefault() {
                 color="white"
                 className="mb-4 lg:text-xl md:text-lg sm:text-base text-xl"
               >
-                "Ana L."
+                "Alma Santana."
               </Typography>
               <Typography
                 variant="lead"
                 color="white"
                 className="mb-5 lg:text-xl md:text-lg sm:text-base text-xl opacity-80"
               >
-                "The prenatal massage was exactly what I needed. The staff was very attentive and professional.
-                Thank you for taking such good care of me!"
+                "I had a great experience with the service I received! <br />
+                Definitely will go back again!"
               </Typography>
               <Rating className="mb-10" value={5} readonly />
             </div>
