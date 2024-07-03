@@ -87,12 +87,12 @@ const services = [
     image: Service12,
     hashtags: ["#scalpMassage", "#tensionRelief", "#circulation"]
   },
-  { 
-    title: "Prenatal Massage", 
-    description: "Specially designed for expectant mothers, our prenatal massage provides gentle relief from the aches and pains of pregnancy, promoting overall well-being.", 
-    image: Service13,
-    hashtags: ["#prenatalMassage", "#pregnancyRelief", "#maternityCare"]
-  },
+  // { 
+  //   title: "Prenatal Massage", 
+  //   description: "Specially designed for expectant mothers, our prenatal massage provides gentle relief from the aches and pains of pregnancy, promoting overall well-being.", 
+  //   image: Service13,
+  //   hashtags: ["#prenatalMassage", "#pregnancyRelief", "#maternityCare"]
+  // },
   { 
     title: "Lymphatic Drainage", 
     description: "Improve your body's natural detoxification process with our lymphatic drainage massage, which encourages the flow of lymph fluids to reduce swelling and enhance circulation.", 
