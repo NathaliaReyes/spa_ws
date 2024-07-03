@@ -13,13 +13,16 @@ const LocationMap = () => {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
-      <Card className="max-w-sm w-full rounded overflow-hidden shadow-lg m-2 flex flex-col">
-        <h2 className="text-2xl font-bold mb-2">Our Location</h2>
-        <p className="mb-2">
-        1941 lumsden Rd, 33511 <br />
-          Brandon, Florida, <br />
-          33511, suite 112 USA
-        </p>
+      <Card className="max-w-sm w-full rounded overflow-hidden shadow-lg m-1 flex flex-col">
+        <h2 className="text-2xl font-bold mb-1 flex items-center">
+          <i className="fas fa-map-marker-alt mr-2"></i>Location
+        </h2>
+        <p>
+          1941 lumsden Rd <br />
+          Brandon, FL 33511<br /> 
+          suite 112 USA <br />
+          <a className='text-blueMedium' href="https://www.google.com/maps/dir/?api=1&destination=1941+Lumsden+Rd+Brandon+FL+33511+Suite+112+USA" target="_blank" rel="noopener noreferrer">Get Directions  ⭢</a>
+          </p>
         <h2 className="text-2xl font-bold mb-2">Business Hours</h2>
         <ul className="list-disc pl-5">
           <li>Monday - Friday: 9:00 AM - 8:00 PM</li>
