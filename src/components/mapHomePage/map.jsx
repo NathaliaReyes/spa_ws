@@ -59,7 +59,7 @@ const LocationMap = () => {
             <i className="fas fa-map-marker-alt mr-2"></i>Location
           </h2>
           <p>
-            1941 Lumsden Rd <br />
+            1941 W Lumsden Rd <br />
             Brandon, FL 33511<br />
             Suite 112 USA <br />
             <a className="text-blueMedium" href="https://www.google.com/maps/dir/?api=1&destination=1941+Lumsden+Rd+Brandon+FL+33511+Suite+112+USA" target="_blank" rel="noopener noreferrer">Get Directions ⭢</a>
