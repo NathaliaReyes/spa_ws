@@ -6,6 +6,7 @@ import Image2 from '../assets/home/portada.jpeg';
 import LocationMap from '../components/mapHomePage/map';
 import '../styles/Home.css'; // Import the CSS file
 import CarouselDefault from '../components/home/testimonials';
+import TeamCard from '../components/home/professionalProfile';
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
               <Button className="m-2 lg:text-lg md:text-base sm:text-base bg-clearYellow text-black font-bold hover:bg-white hover:text-black hover:border hover:border-mainYellow hover:border-2 hover:shadow-lg hover:shadow-yellow-500/50">View Services</Button>
             </Link>
           </div>
+          <TeamCard />
           {/* <p className="lg:text-xl md:text-lg sm:text-base mt-4 ml-2 mr-2 mb-4 text-center">
             Book your appointment via phone call or send us a text on
             <a href="https://wa.me/18134686878" target="_blank" rel="noopener noreferrer" className="underline text-green-500 hover:text-green-600"> WhatsApp. </a>
