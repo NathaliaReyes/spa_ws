@@ -26,8 +26,8 @@ const LocationMap = () => {
       </div>
 
       {/* Content section */}
-      <div className="md:w-5/12 md:mx-2">
-        <Card className="max-w-sm w-full rounded overflow-hidden shadow-lg m-1 flex flex-col items-center text-center">
+      <div className="md:w-5/12 md:mx-2 w-full flex justify-center">
+        <Card className="max-w-lg w-full rounded overflow-hidden shadow-lg m-1 flex flex-col items-center text-center">
           <h2 className="text-2xl font-bold mb-1 flex items-center justify-center">
             <i className="fas fa-map-marker-alt mr-2"></i>Location
           </h2>
