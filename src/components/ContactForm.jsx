@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import { useForm } from '@formspree/react';
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
 
 function ContactForm() {
-  const [state, handleSubmitFormspree] = useForm("xpwaaenw");
-  const [fullName, setFullName] = useState('');
+  const [state, handleSubmitFormspree] = useForm("xkgwnerl");
+  const [firstName, setfirstName] = useState('');
+  const [lastName, setlastName] = useState('');
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [inquiry, setInquiry] = useState('');
   const [message, setMessage] = useState('');
   const [submitted, setSubmitted] = useState(false);
@@ -12,13 +16,18 @@ function ContactForm() {
   const [fieldsCompleted, setFieldsCompleted] = useState(true);
   const [nameRequired, setNameRequired] = useState(false);
   const [emailRequired, setEmailRequired] = useState(false);
+  const [phoneRequired, setPhoneRequired] = useState(false);
   const [messageRequired, setMessageRequired] = useState(false);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
     switch (name) {
-      case 'fullName':
-        setFullName(value);
+      case 'firstName':
+        setfirstName(value);
+        setNameRequired(!value);
+        break;
+      case 'lastName':
+        setlastName(value);
         setNameRequired(!value);
         break;
       case 'email':
@@ -38,6 +47,11 @@ function ContactForm() {
     }
   };
 
+  const handlePhoneChange = (value) => {
+    setPhone(value);
+    setPhoneRequired(!value);
+  };
+
   const validateEmail = (email) => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
@@ -45,7 +59,7 @@ function ContactForm() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    if (!fullName || !email || !message) {
+    if (!firstName || !lastName || !email || !phone || !message) {
       setFieldsCompleted(false);
       return;
     } else if (!emailValid) {
@@ -76,7 +90,7 @@ function ContactForm() {
               &times;
             </button>
             <h2 className="text-2xl font-bold mb-4">Your message has been delivered!</h2>
-            <p className="text-gray-700 mb-4">Thank you for reaching out - we will get in touch soon!</p>
+            <p className="text-gray-700 mb-4">Thank you for reaching out Harmony Wellness & Spa - we will get in touch soon!</p>
             <p className="text-gray-500">✨ Have a splendid day! ✨</p>
           </div>
         </div>
@@ -97,14 +111,27 @@ function ContactForm() {
         <div className="mb-4 ml-4 mr-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">Name</label>
           <input
-            name="fullName"
-            value={fullName}
+            name="firstName"
+            value={firstName}
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             type="text"
-            placeholder="First and Last Name"
+            placeholder="First Name"
             onChange={handleChange}
           />
           {nameRequired && <p className="text-red-500 text-xs mt-2">Name is required.</p>}
+        </div>
+
+        <div className="mb-4 ml-4 mr-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2">Last Name</label>
+          <input
+            name="lastName"
+            value={lastName}
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            type="text"
+            placeholder="Last Name"
+            onChange={handleChange}
+          />
+          {nameRequired && <p className="text-red-500 text-xs mt-2">Last Name is required.</p>}
         </div>
 
         <div className="mb-4 ml-4 mr-4">
@@ -112,13 +139,33 @@ function ContactForm() {
           <input
             name="email"
             value={email}
-            className={`shadow appearance-none border ${!emailValid ? 'border-red-500' : ''} rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline`}
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             type="email"
             placeholder="email@example.com"
             onChange={handleChange}
           />
           {emailRequired && <p className="text-red-500 text-xs mt-2">Email is required.</p>}
           {!emailValid && email && <p className="text-red-500 text-xs mt-2">Please enter a valid email address.</p>}
+        </div>
+
+        <div className="mb-4 ml-4 mr-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2">Phone Number</label>
+          <PhoneInput
+            name="phone"
+            value={phone}
+            placeholder="Enter phone number"
+            className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+            onChange={handlePhoneChange}
+            defaultCountry="US" />
+            {phoneRequired && <p className="text-red-500 text-xs mt-2">Phone Number is required.</p>}
+          {/* <input
+            name="phone"
+            value={phone}
+            className={`shadow appearance-none border ${!emailValid ? 'border-red-500' : ''} rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline`}
+            type="email"
+            placeholder="email@example.com"
+            onChange={handleChange}
+          /> */}
         </div>
 
         <div className="mb-4 ml-4 mr-4">

@@ -28,9 +28,11 @@ export default function TeamCard() {
                 </CardHeader>
                 <CardContent>
                     <div className="flex justify-center items-center">
-                        <Button variant="ghost" size="icon" className="rounded-full border border-black hover:border-yellow-500 hover:bg-white bg-clearYellow">
-                            <FaLinkedinIn />
-                        </Button>
+                        <a href="https://www.linkedin.com/in/nancy-pulido-ruilova-437120318" target="_blank" rel="noopener noreferrer">
+                            <Button variant="ghost" size="icon" className="rounded-full border border-black hover:border-yellow-500 hover:bg-white bg-clearYellow">
+                                <FaLinkedinIn />
+                            </Button>
+                        </a>
                     </div>
                     <p className="lg:text-xl md:text-lg sm:text-base text-justify p-1 mt-3">
                         Nancy, the founder of Harmony Wellness & Spa, has over 23 years of experience in wellness and health. With a background in physical therapy, she helps people achieve optimal relaxation and well-being.

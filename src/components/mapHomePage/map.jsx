@@ -47,7 +47,7 @@ const LocationMap = () => {
         {/* Text section */}
         <div className="text-center mt-3">
           <p className="text-lg mt-4 ml-3 mr-3">
-            To schedule an appointment, you can reach us by phone, <a href="https://wa.me/18134686878" target="_blank" rel="noopener noreferrer" className=" text-green-500 hover:text-green-600">WhatsApp</a>, or fill out the form in our <a href="#contacto" className="text-blueMedium">Contact</a> section. <br /><br />We appreciate you choosing Harmony Wellness & Spa!
+            To schedule an appointment, you can reach us by phone, <a href="https://wa.me/18134686878" target="_blank" rel="noopener noreferrer" className=" text-green-500 hover:text-green-600">WhatsApp</a>, or fill out the form in our <a href="/Contact" className="text-blueMedium">Contact</a> section. <br /><br />We appreciate you choosing Harmony Wellness & Spa!
           </p>
         </div>
       </div>
