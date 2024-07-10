@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <div style={{ 
         position: 'relative', 
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(${bg})`, 
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(${bg})`, 
         backgroundSize: 'cover', 
         backgroundPosition: 'center' 
       }}>
@@ -23,13 +23,13 @@ const Home = () => {
           <i className="fas fa-phone mr-2 text-white"></i>
           <span style={{ marginRight: '20px', color: 'white' }}>Phone Number:<strong><a href="tel:+18134686878"> +1 (813) 468-6878</a></strong></span>
           <a href="http://harmony-wellness-spa.square.site/" target="_blank" rel="noopener noreferrer">
-            <Button className= 'm-2 lg:text-lg md:text-base sm:text-base  text-black font-bold hover:bg-white hover:text-black hover:border hover:border-mainYellow hover:border-2 hover:shadow-lg hover:shadow-yellow-500/50' style={{ backgroundColor: '#DAA520', color: 'white', padding: '10px 20px', border: 'none', borderRadius: '5px' }}>
+            <Button className= 'm-2 lg:text-lg md:text-base sm:text-base  text-black font-bold hover:bg-white hover:text-black hover:border-mainYellow hover:border-2 hover:shadow-lg hover:shadow-yellow-500/50' style={{ backgroundColor: '#DAA520', color: 'white', padding: '10px 20px', border: 'none', borderRadius: '5px' }}>
               Book Now
             </Button>
 
           </a>
         </div>
-        <img src={Image2} alt="banner" style={{ width: '100%', height: '50vh', objectFit: 'cover' }} />
+        <img src={Image2} alt="banner" style={{ width: '100%', height: '50vh', objectFit: 'cover',  }} />
 
       </div>
       <div className="content-container m-6">
