@@ -79,7 +79,7 @@ const LocationMap = () => {
             <li><span className="font-bold">Wed</span>: 14:00 - 19:00</li>
             <li><span className="font-bold">Thu</span>: 14:00 - 19:00</li>
             <li><span className="font-bold">Fri</span>: 14:00 - 19:00</li>
-            <li><span className="font-bold">Sat</span>: 9:00 - 17:00</li>
+            <li><span className="font-bold">Sat</span>: 9:00 - 16:00</li>
             <li><span className="font-bold">Sun</span>: Closed</li>
           </ul>
         </Card>

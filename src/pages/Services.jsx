@@ -16,13 +16,13 @@ import Service14 from '../assets/services/service14.jpg';
 
 const services = [
   { 
-    title: "Relaxing Massage", 
+    title: "Relaxing Massage",
     description: "Experience deep relaxation and stress relief with our relaxing massage, designed to soothe your body and mind, promoting a sense of tranquility and well-being.", 
     image: Service1,
     hashtags: ["#relaxingMassage", "#stressRelief", "#tranquility"]
   },
-  { 
-    title: "Therapeutic Massage", 
+  {
+    title: "Therapeutic Massage",
     description: "Our therapeutic massage targets specific areas of tension and pain, using a variety of techniques to alleviate discomfort and promote healing.", 
     image: Service2,
     hashtags: ["#therapeuticMassage", "#painRelief", "#healing"]
