@@ -47,9 +47,9 @@ function NavTabs() {
       </div>
       <div className="block md:hidden mr-2">
         <button onClick={toggleMenu} className="flex flex-col justify-around items-center w-10 h-10 rounded-full mt-2 mb-2 bg-customWhite hover:bg-customGray p-2">
+          <div className="w-3 h-0.5 bg-stone"></div>
           <div className="w-6 h-0.5 bg-stone"></div>
-          <div className="w-6 h-0.5 bg-stone"></div>
-          <div className="w-6 h-0.5 bg-stone"></div>
+          <div className="w-3 h-0.5 bg-stone"></div>
         </button>
       </div>
       <div className={`w-full ${isActive ? 'block' : 'hidden'} md:block md:flex md:items-center md:w-auto`} id="navMenu">
