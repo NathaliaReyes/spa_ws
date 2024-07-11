@@ -32,10 +32,10 @@ const Home = () => {
         <img src={Image2} alt="banner" style={{ width: '100%', height: '50vh', objectFit: 'cover',  }} />
 
       </div>
-      <div className="content-container m-6">
+      <div className="content-container m-6 ">
 
         {/* <img src={Image2} alt="Harmony Wellness & Spa" className="content-image rounded-lg" /> */}
-        <div>
+        <div >
           <p className="lg:text-xl md:text-lg sm:text-base mt-4 ml-2 mr-2 mb-2">
             Welcome to Harmony Wellness & Spa, a premier spa located in Brandon, Florida. We specialize in professional massages with personalized attention to ensure the best quality and service. At Harmony Wellness & Spa, you will find well-being and tranquility in one place. Our goal is to create an environment where you can relax, rejuvenate, and find peace.
             <br /><br />
