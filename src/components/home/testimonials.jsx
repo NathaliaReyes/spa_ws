@@ -22,7 +22,7 @@ export default function CarouselDefault() {
                 color="white"
                 className="mb-4 lg:text-xl md:text-lg sm:text-base text-xl"
               >
-                "Lynn McHugh."
+                "Lynn McHugh. ~ Brandon, FL"
               </Typography>
               <Typography
                 variant="lead"
@@ -50,7 +50,7 @@ export default function CarouselDefault() {
                 color="white"
                 className="mb-4 lg:text-xl md:text-lg sm:text-base text-xl mt-2"
               >
-                "John Marshall."
+                "John Marshall. ~ Brandon, FL"
               </Typography>
               <Typography
                 variant="lead"
@@ -106,7 +106,7 @@ export default function CarouselDefault() {
                 color="white"
                 className="mb-4 lg:text-xl md:text-lg sm:text-base text-xl"
               >
-                "Lance E."
+                "Lance E. ~ Brandon, FL"
               </Typography>
               <Typography
                 variant="lead"
