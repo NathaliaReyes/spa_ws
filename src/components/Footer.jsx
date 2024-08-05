@@ -20,7 +20,7 @@ function Footer() {
       <div>
         <p className="m-3 text-center text-gray-200 text-xs opacity-50">© 2024 All rights reserved</p>
         <p className=" text-center text-gray-200 text-xs opacity-50" style={{ fontSize: '8px' }}>MADE WITH LOVE BY 
-          <a href="https://www.linkedin.com/in/silviareyes23/" target="_blank" rel="noopener noreferrer" className='underline-link'> SILVIA REYES</a>
+          <a href="https://silviareyes.netlify.app/" target="_blank" rel="noopener noreferrer" className='underline-link'> SILVIA REYES</a>
         </p>
         <p className="m-5 text-center text-gray-200 text-xs opacity-50">Privacy Policy</p>
       </div>
