@@ -57,7 +57,7 @@ const LocationMap = () => {
       <div className="md:w-1/2 w-full flex justify-center">
         <Card className="max-w-lg w-full rounded overflow-hidden shadow-lg flex flex-col items-center ">
           <div className='grid grid-cols-1 md:grid-cols-2 w-full mx-4 md:gap-8'>
-            <div className='mt-2 mb-4' >
+            <div className='mt-2 mb-2' >
               <h2 className="md:text-xl text-lg font-bold flex md:mb-2">
                 <i className="fas fa-map-marker-alt mr-2 mb-2"></i>Location
               </h2>
@@ -77,8 +77,7 @@ const LocationMap = () => {
               </p>
             </div>
 
-            <div className='mt-4'>
-
+            <div>
               <h2 className="md:text-xl text-lg font-bold md:mb-2 flex">
                 <i className="fas fa-clock mr-2"></i>Hours
               </h2>
@@ -93,7 +92,7 @@ const LocationMap = () => {
               </ul>
             </div>
           </div>
-          <div className='w-full mt-4 flex justify-center'>
+          <div className='w-full flex justify-center'>
             <GoogleReview />
           </div>
         </Card>

@@ -41,9 +41,9 @@ function NavTabs() {
   }, [currentPage]);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-mainBg p-1">
-      <div className="flex items-center flex-shrink-0 text-white m-3">
-        <img src={logo} alt="logo" className='h-28 w-28 ml-2'></img>
+    <nav className="flex items-center justify-between flex-wrap bg-mainBg">
+      <div className="flex items-center flex-shrink-0 text-white m-1">
+        <img src={logo} alt="logo" className='md:h-24 md:w-24 h-16 w-16 ml-1'></img>
       </div>
       <div className="block md:hidden mr-2">
         <button onClick={toggleMenu} className="flex flex-col justify-around items-center w-10 h-10 rounded-full mt-2 mb-2 bg-customWhite hover:bg-customGray p-2">
