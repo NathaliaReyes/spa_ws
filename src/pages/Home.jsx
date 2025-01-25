@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Modal from 'react-modal';
+import FormfacadeEmbed from '@/components/form/FormfacadeEmbed';
 import { Button } from "@/components/ui/button";  // Asegúrate de importar tu componente de botón correctamente
 import { Link } from 'react-router-dom';
 import Image from '../assets/home/portada.jpg';
@@ -11,6 +13,21 @@ import TeamCard from '../components/home/professionalProfile';
 import GoogleReview from '@/components/home/GoogleReview';
 
 const Home = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
+  const handleFormSubmit = () => {
+    console.log('Form submitted');
+    closeModal();
+    window.location.href = "http://harmony-wellness-spa-102368.square.site";
+  };
   return (
     <>
       <div style={{
@@ -24,11 +41,29 @@ const Home = () => {
           <span style={{ marginRight: '20px', color: 'white' }}>
             Phone Number:<strong><a href="tel:+18134686878"> +1 (813) 468-6878</a></strong>
           </span>
-          <a href="http://harmony-wellness-spa-102368.square.site" target="_blank" rel="noopener noreferrer">
+          <a href="#" onClick={openModal}>
             <Button className='m-2 lg:text-lg md:text-base sm:text-base  text-black font-bold hover:bg-white hover:text-black hover:border-mainYellow hover:border-2 hover:shadow-lg hover:shadow-yellow-500/50' style={{ backgroundColor: '#DAA520', color: 'white', padding: '10px 20px', border: 'none', borderRadius: '5px' }}>
               Book Now
             </Button>
           </a>
+
+          <Modal
+            isOpen={modalIsOpen}
+            onRequestClose={closeModal}
+            contentLabel="Book Now Form"
+            className="modal"
+            overlayClassName="overlay"
+          >
+            <button onClick={closeModal}>Close</button>
+
+            <FormfacadeEmbed
+
+              formFacadeURL="https://formfacade.com/include/108276575865294431338/form/1FAIpQLSfeKEAu668zy8DtM16AxX05XZTcjhpF3sGme3jOrq3_2hiK1w/classic.js/?div=ff-compose"
+              onSubmitForm={() => console.log('Form submitted')}
+
+            />
+          </Modal>
+
         </div>
         <img src={Image2} alt="banner" style={{ width: '100%', height: '50vh', objectFit: 'cover', }} />
 

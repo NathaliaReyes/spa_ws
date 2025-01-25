@@ -14,4 +14,29 @@
       flex: 1; /* Allows the text container to fill the remaining space */
     }
   }
-  
+
+  /* En tu archivo Home.css */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:rgb(239, 237, 224);
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  z-index: 1000;
+  max-height: 90vh; /* Ensure the modal doesn't exceed the viewport height */
+  overflow-y: auto;
+  width: 90%; /* Adjust based on your preference */
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999; /* Ensure the overlay is below the modal */
+}
