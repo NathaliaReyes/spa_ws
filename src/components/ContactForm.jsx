@@ -80,7 +80,7 @@ function ContactForm() {
       {submitted && (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50">
           <div className="bg-white rounded-lg shadow-lg p-2 text-center relative">
-            <buttonS
+            <button
               onClick={() => {
                 setSubmitted(false);
                 window.location.href = '/';
