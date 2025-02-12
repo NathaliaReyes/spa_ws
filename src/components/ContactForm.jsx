@@ -4,7 +4,7 @@ import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
 
 function ContactForm() {
-  const [state, handleSubmitFormspree] = useForm("xkgwnerl");
+  const [state, handleSubmitFormspree] = useForm("xanqdpvj");
   const [firstName, setfirstName] = useState('');
   const [lastName, setlastName] = useState('');
   const [email, setEmail] = useState('');
@@ -80,7 +80,7 @@ function ContactForm() {
       {submitted && (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50">
           <div className="bg-white rounded-lg shadow-lg p-2 text-center relative">
-            <button
+            <buttonS
               onClick={() => {
                 setSubmitted(false);
                 window.location.href = '/';
