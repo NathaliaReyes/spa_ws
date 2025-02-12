@@ -7,7 +7,7 @@ export default function GoogleReview() {
             <img
                 src={GoogleRev}
                 alt="Google Review Harmony Wellness & Spa"
-                className='lg:h-64 lg:w-64 md:h-48 md:w-48 h-32 w-32 hover:shadow-lg rounded-full'
+                className='lg:h-56 lg:w-56 md:h-44 md:w-44 h-32 w-32 hover:shadow-lg rounded-full'
             />
         </a>
     );
