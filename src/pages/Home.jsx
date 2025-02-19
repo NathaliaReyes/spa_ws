@@ -102,7 +102,7 @@ const Home = () => {
 								<iframe
 									src="https://docs.google.com/forms/d/e/1FAIpQLSfeKEAu668zy8DtM16AxX05XZTcjhpF3sGme3jOrq3_2hiK1w/viewform?usp=sf_link"
 									width="100%"
-									height="600px"
+									height="500px"
 									frameBorder="0"
 									marginHeight="0"
 									marginWidth="0"
