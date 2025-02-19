@@ -92,13 +92,24 @@ const Home = () => {
 							</div>
 						) : (
 							// Step 2: Show the embedded form if "New Client" was selected
-							<div>
+							<div >
 								<h2 className='text-center mt-2 font-semibold'>New Client Information</h2>
 								<p className='text-red-600 py-2 text-sm sm:text-base text-center'>Please fill out the medical questionnaire before booking.</p>
-								<FormfacadeEmbed
+								{/* <FormfacadeEmbed
 									formFacadeURL="https://formfacade.com/include/108276575865294431338/form/1FAIpQLSfeKEAu668zy8DtM16AxX05XZTcjhpF3sGme3jOrq3_2hiK1w/classic.js/?div=ff-compose"
 									onSubmitForm={() => console.log("Form submitted")}
-								/>
+								/> */}
+								<iframe
+									src="https://docs.google.com/forms/d/e/1FAIpQLSfeKEAu668zy8DtM16AxX05XZTcjhpF3sGme3jOrq3_2hiK1w/viewform?usp=sf_link"
+									width="100%"
+									height="400px"
+									frameBorder="0"
+									marginHeight="0"
+									marginWidth="0"
+									className="border-0"
+								>
+									Loading…
+								</iframe>
 							</div>
 						)}
 					</Modal>
