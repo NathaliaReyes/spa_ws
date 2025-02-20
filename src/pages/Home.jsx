@@ -43,7 +43,7 @@ const Home = () => {
 					</a>
 				</div>
 				<div className='text-center px-2'>
-					<p className="text-white text-xs md:text-base mb-3">
+					<p className="text-white text-xs md:text-base mb-1">
 						Before booking your session, please take a moment to complete our
 						<a
 							href="https://docs.google.com/forms/d/e/1FAIpQLSfeKEAu668zy8DtM16AxX05XZTcjhpF3sGme3jOrq3_2hiK1w/viewform?usp=sharing"
@@ -51,11 +51,11 @@ const Home = () => {
 							rel="noopener noreferrer"
 							className="text-red-500 font-bold underline ml-1 hover:text-yellow-400"
 						>
-							Medical Condition Form.
+							Medical History Form.
 						</a> <br />
 						
 					</p>
-						<p className="text-white text-xs mb-3">This will help us ensure your massage is safe, tailored to your needs, and provides the best possible experience.</p>
+						<p className="text-white text-xs md:text-base mb-3">This will help us ensure your massage is safe, tailored to your needs, and provides the best possible experience.</p>
 				</div>
 				<img src={Image2} alt="banner" style={{ width: '100%', height: '50vh', objectFit: 'cover', }} />
 

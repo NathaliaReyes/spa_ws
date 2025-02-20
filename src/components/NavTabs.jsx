@@ -34,10 +34,10 @@ function NavTabs() {
         pageTitle = 'Contact Us';
         break;
       default:
-        pageTitle = "New Spa"
+        pageTitle = "Harmony Wellness & Spa";
         break;
     }
-    document.title = `${pageTitle} | New Spa`
+    document.title = `${pageTitle} | Harmony Wellness & Spa`
   }, [currentPage]);
 
   return (
