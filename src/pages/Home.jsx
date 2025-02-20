@@ -43,7 +43,7 @@ const Home = () => {
 					</a>
 				</div>
 				<div className='text-center px-2'>
-					<p className="text-white text-xs mb-3">
+					<p className="text-white text-xs md:text-base mb-3">
 						Before booking your session, please take a moment to complete our
 						<a
 							href="https://docs.google.com/forms/d/e/1FAIpQLSfeKEAu668zy8DtM16AxX05XZTcjhpF3sGme3jOrq3_2hiK1w/viewform?usp=sharing"
