@@ -28,7 +28,7 @@ const ResponsiveIframe = () => {
 
   return (
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3525.342240039929!2d-82.31865332452497!3d27.92215157606008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2ce6ccbfed82b%3A0x3c0253f67b7f4dad!2s1941%20W%20Lumsden%20Rd%2C%20Brandon%2C%20FL%2033511!5e0!3m2!1ses!2sus!4v1719541587073!5m2!1ses!2sus"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7049.0746262004095!2d-82.34921702557935!3d27.946826276046096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2cf99ae4ad72f%3A0x9ed1156e1275216d!2sHarmony%20Wellness%20%26%20Spa!5e0!3m2!1ses!2sus!4v1758413885133!5m2!1ses!2sus"
       width="400"
       height={iframeHeight}
       className="border-0 w-full ml-2 mr-2 shadow-lg p-4"
@@ -85,9 +85,9 @@ const LocationMap = () => {
             <i className="fas fa-map-marker-alt mr-2 mb-2"></i>Location
           </h2>
           <p>
-            1941 W Lumsden Rd Brandon, FL 33511<br />
-            Suite 112 USA <br />
-            <a className="text-blueMedium hover:text-blue-gray-600" href="https://maps.app.goo.gl/bCp54YKbTA2kjqcH8" target="_blank" rel="noopener noreferrer">
+            410 Ware Blvd Tampa, FL 33619<br />
+            Suite 210 USA <br />
+            <a className="text-blueMedium hover:text-blue-gray-600" href="https://maps.app.goo.gl/LWK3BRXvL9cMbXoX9" target="_blank" rel="noopener noreferrer">
               Get Directions ⭢
             </a>
           </p>
